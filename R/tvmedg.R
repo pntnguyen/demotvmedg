@@ -23,6 +23,7 @@
 #' @param ci - percentage of confidence interval
 #'
 #' @return
+#' q11,q10,q00
 #' @export
 tvmedg <- function(data,
                    fix,expo,med,tvar,lag,outc,time,norev = NULL,LM = FALSE,

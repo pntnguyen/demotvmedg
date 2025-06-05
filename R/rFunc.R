@@ -4,6 +4,7 @@
 #' @param ndat - new data
 #'
 #' @return
+#' output variables
 #' @export
 rFunc <- function(mod, ndat) {
   pred_prob <- predict(mod, newdata = ndat, type = "response")

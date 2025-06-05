@@ -5,6 +5,7 @@
 #' @param boot - doing bootstrapping
 #'
 #' @return
+#' confident interval
 #' @export
 cal_ci <- function(data,ci = 0.95,boot = T){
 

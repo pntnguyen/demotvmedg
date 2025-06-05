@@ -7,6 +7,7 @@
 #' @param ay - ay
 #'
 #' @return
+#' estimated dataframe
 #' @export
 g_form <- function(data, ii = 2, length = 12, am = 1, ay = 0){
 

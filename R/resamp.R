@@ -4,6 +4,7 @@
 #' @param boot - doing bootstrap
 #'
 #' @return
+#' data after resampling
 #' @export
 resamp <- function(data,boot = FALSE){
 

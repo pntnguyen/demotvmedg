@@ -8,6 +8,7 @@
 #' @param dof degree of freedom
 #'
 #' @return
+#' model and data
 #' @export
 fitg <- function(data,boot = FALSE,
                  mreg = "binomial",

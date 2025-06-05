@@ -4,6 +4,7 @@
 #' @param montecarlo number of repeated samples for accept-reject algorithm
 #'
 #' @return
+#' data after doing montecarlo
 #' @export
 baseline_mc <- function(data = fitR2,montecarlo = 10000){
 

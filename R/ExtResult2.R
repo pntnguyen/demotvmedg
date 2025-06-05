@@ -3,6 +3,7 @@
 #' @param data - estimated data
 #'
 #' @return
+#' mean of q11,q10,q00
 #' @export
 ExtResult2 <- function(data) {
   Q11 <- data |> filter(lastid == 1 & Ay ==1 & Am ==1)
