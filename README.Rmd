@@ -13,21 +13,9 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Installation
-
-```{r}
-# install.packages("devtools")
-# devtools::install_github("pntnguyen/demotvmedg")
-# library(demotvmedg)
-```
+# Time-varying mediation analysis using g-formula
 
 
-# Import data
-
-```{r}
-dat0 <- readRDS("../data/tvmed_dat100_12mo.RDS")
-# dat0 %>% head()
-```
 
 
 
