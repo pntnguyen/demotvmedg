@@ -13,7 +13,21 @@ knitr::opts_chunk$set(
 )
 ```
 
-# demotvmedg
+# Installation
+
+```{r}
+# install.packages("devtools")
+devtools::install_github("pntnguyen/demotvmedg")
+library(demoPkg)
+```
+
+
+# Import data
+
+```{r}
+dat0 <- readRDS("../data/tvmed_dat100_12mo.RDS")
+```
+
 
 
 
