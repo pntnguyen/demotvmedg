@@ -26,6 +26,7 @@ library(demoPkg)
 
 ```{r}
 dat0 <- readRDS("../data/tvmed_dat100_12mo.RDS")
+dat0 %>% head()
 ```
 
 

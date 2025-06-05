@@ -1,7 +1,15 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# How to use
+# Installation
+
+``` r
+# install.packages("devtools")
+# devtools::install_github("pntnguyen/demotvmedg")
+# library(demoPkg)
+```
+
+# Import data
 
 ``` r
 dat0 <- readRDS("../data/tvmed_dat100_12mo.RDS")
