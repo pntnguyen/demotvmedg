@@ -46,7 +46,7 @@ plot.tvmedg <- function(x,what = c("all","cumY","tvY"),...){
       y_count = sum(Y)
     ) |>
     ungroup() |>
-    mutate(y_prob_cum = cumsum(y_count)/nrow(df))
+    mutate(y_prob_cum = cumsum(y_count)/nrow(x$ori_df))
 
   dat1M <- x$dat_MC |>
     mutate(group = if_else(Ay == 1 & Am == 1, "Q(1,1)",
