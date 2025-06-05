@@ -17,8 +17,8 @@ knitr::opts_chunk$set(
 
 ```{r}
 # install.packages("devtools")
-devtools::install_github("pntnguyen/demotvmedg")
-library(demoPkg)
+# devtools::install_github("pntnguyen/demotvmedg")
+# library(demotvmedg)
 ```
 
 
@@ -26,7 +26,7 @@ library(demoPkg)
 
 ```{r}
 dat0 <- readRDS("../data/tvmed_dat100_12mo.RDS")
-dat0 %>% head()
+# dat0 %>% head()
 ```
 
 
